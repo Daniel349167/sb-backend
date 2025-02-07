@@ -30,7 +30,6 @@ namespace SB.Prueba.API.Controllers
 
         private string GenerateJwtToken()
         {
-            // Se modifica la clave secreta para asegurar que tenga al menos 32 caracteres (256 bits)
             var key = _configuration["Jwt:Key"] ?? "MiClaveSecretaSuperSegura1234567890";
             var issuer = _configuration["Jwt:Issuer"] ?? "SB.Prueba";
 
