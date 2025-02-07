@@ -1,0 +1,12 @@
+2025-02-06 20:35:21.745 -05:00 [INF] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-06 20:35:21.806 -05:00 [INF] Creating key {0f019641-51c7-4e3f-afa2-a21ab5002abf} with creation date 2025-02-07 01:35:21Z, activation date 2025-02-07 01:35:21Z, and expiration date 2025-05-08 01:35:21Z.
+2025-02-06 20:35:21.828 -05:00 [INF] Writing data to file 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys\key-0f019641-51c7-4e3f-afa2-a21ab5002abf.xml'.
+2025-02-06 20:35:21.999 -05:00 [INF] Now listening on: http://localhost:5088
+2025-02-06 20:35:22.003 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-06 20:35:22.005 -05:00 [INF] Hosting environment: Development
+2025-02-06 20:35:22.006 -05:00 [INF] Content root path: C:\Users\USER\Desktop\SB.Prueba\SB.Prueba.API
+2025-02-06 20:36:41.552 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/ - null null
+2025-02-06 20:36:41.587 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-02-06 20:36:41.629 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/ - 404 0 null 79.1877ms
+2025-02-06 20:36:41.663 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5088/, Response status code: 404
+2025-02-06 23:59:28.361 -05:00 [INF] Application is shutting down...

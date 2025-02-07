@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6Vslc9f3bwYf7EwnY786zFkXyVg67EX5pqp7+MdDs8BnUoKYPfzS43FpqVixs4DMucyB9RHdnEAXwe1qFkn3Vg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\sb-backend\\SB.Prueba.Infrastructure\\SB.Prueba.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\serilog\\2.12.0\\serilog.2.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}

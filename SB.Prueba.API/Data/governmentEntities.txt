@@ -1,0 +1,7 @@
+1,Ministerio de Educación,Encargado de la educación.
+2,Ministerio de Salud Pública,Responsable de la salud.
+3,Ministerio de Hacienda,Administra finanzas.
+4,Ministerio de Agricultura,Fomenta la agricultura.
+5,Ministerio de Obras Públicas,Maneja obras e infraestructuras.
+6,Ministerio de Turismo,Promueve el turismo.
+7,Ministerio de Cultura,Protege la cultura.
