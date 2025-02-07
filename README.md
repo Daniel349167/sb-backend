@@ -33,7 +33,7 @@ El repositorio sigue el patrón de arquitectura Onion y está organizado de la s
 Clonar o descargar este repositorio:
 
 ```bash
-git clone https://github.com/Daniel349167/sb-frontend.git
+git clone https://github.com/Daniel349167/sb-backend.git
 ```
 
 Restaurar dependencias y compilar (puedes hacerlo desde la raíz o desde la carpeta `SB.Prueba.API`):
