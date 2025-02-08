@@ -1549,3 +1549,1271 @@ DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
 2025-02-07 04:56:42.918 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 1.5326ms
 2025-02-07 04:56:42.920 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
 2025-02-07 04:56:42.921 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/api/governmententity - 200 null application/json; charset=utf-8 16.2439ms
+2025-02-07 05:23:51.486 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5088/api/governmententity - null null
+2025-02-07 05:23:51.495 -05:00 [INF] CORS policy execution successful.
+2025-02-07 05:23:51.495 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5088/api/governmententity - 204 null null 8.9174ms
+2025-02-07 05:23:51.499 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5088/api/governmententity - null null
+2025-02-07 05:23:51.501 -05:00 [INF] CORS policy execution successful.
+2025-02-07 05:23:51.502 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 05:23:51.503 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 05:23:51.506 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 05:23:51.507 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 2.6683ms
+2025-02-07 05:23:51.508 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 05:23:51.509 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5088/api/governmententity - 200 null application/json; charset=utf-8 10.1514ms
+2025-02-07 06:06:04.618 -05:00 [INF] Application is shutting down...
+2025-02-07 06:06:20.267 -05:00 [INF] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-07 06:06:20.370 -05:00 [INF] Now listening on: http://localhost:5088
+2025-02-07 06:06:20.373 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 06:06:20.375 -05:00 [INF] Hosting environment: Development
+2025-02-07 06:06:20.375 -05:00 [INF] Content root path: C:\Users\USER\Desktop\sb-backend\SB.Prueba.API
+2025-02-07 06:23:50.674 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger - null null
+2025-02-07 06:23:50.730 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger - 301 0 null 57.8808ms
+2025-02-07 06:23:50.907 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - null null
+2025-02-07 06:23:51.001 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - 200 null text/html;charset=utf-8 94.0712ms
+2025-02-07 06:23:51.207 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/swagger-ui.css - null null
+2025-02-07 06:23:51.217 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/swagger-ui-bundle.js - null null
+2025-02-07 06:23:51.231 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/swagger-ui-standalone-preset.js - null null
+2025-02-07 06:23:51.252 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-02-07 06:23:51.255 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/swagger-ui.css - 200 143943 text/css 47.7668ms
+2025-02-07 06:23:51.421 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-02-07 06:23:51.423 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 192.2969ms
+2025-02-07 06:23:51.785 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-02-07 06:23:51.788 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 571.0434ms
+2025-02-07 06:23:52.287 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - null null
+2025-02-07 06:23:52.303 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/favicon-32x32.png - null null
+2025-02-07 06:23:52.307 -05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-02-07 06:23:52.309 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/favicon-32x32.png - 200 628 image/png 6.2487ms
+2025-02-07 06:23:52.374 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 87.0128ms
+2025-02-07 06:28:43.432 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - null null
+2025-02-07 06:28:43.441 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:28:43.444 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - 204 null null 12.4668ms
+2025-02-07 06:28:43.616 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 39
+2025-02-07 06:28:43.621 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:28:43.626 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-02-07 06:28:43.671 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 06:28:43.723 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 06:28:43.788 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-07 06:28:43.804 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 75.4641ms
+2025-02-07 06:28:43.806 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 06:28:43.808 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 200 null application/json; charset=utf-8 191.9715ms
+2025-02-07 06:43:20.512 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - null null
+2025-02-07 06:43:20.518 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:43:20.519 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - 204 null null 7.4106ms
+2025-02-07 06:43:20.706 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 39
+2025-02-07 06:43:20.710 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:43:20.712 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 06:43:20.714 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 06:43:20.717 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-07 06:43:20.718 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 2.6625ms
+2025-02-07 06:43:20.720 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 06:43:20.721 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 200 null application/json; charset=utf-8 14.5571ms
+2025-02-07 06:51:20.242 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - null null
+2025-02-07 06:51:20.253 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:51:20.259 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - 204 null null 19.0313ms
+2025-02-07 06:51:20.443 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 39
+2025-02-07 06:51:20.448 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:51:20.471 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 06:51:20.474 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 06:51:20.487 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-07 06:51:20.490 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 14.4152ms
+2025-02-07 06:51:20.491 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 06:51:20.494 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 200 null application/json; charset=utf-8 50.6418ms
+2025-02-07 06:51:46.073 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 06:51:46.079 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:51:46.080 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 7.1138ms
+2025-02-07 06:51:46.265 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 06:51:46.276 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:51:46.466 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 06:51:46.614 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 06:51:46.660 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 06:51:46.675 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 58.8124ms
+2025-02-07 06:51:46.679 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 06:51:46.680 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 414.7221ms
+2025-02-07 06:51:54.368 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 06:51:54.372 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:51:54.373 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.6812ms
+2025-02-07 06:51:54.579 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 06:51:54.582 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:51:54.585 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 06:51:54.586 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 06:51:54.589 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 06:51:54.590 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 1.8383ms
+2025-02-07 06:51:54.591 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 06:51:54.593 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 13.9298ms
+2025-02-07 06:52:02.747 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 06:52:02.751 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:52:02.752 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 5.1864ms
+2025-02-07 06:52:02.936 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/governmententity - application/json 42
+2025-02-07 06:52:02.941 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:52:02.947 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.Create (SB.Prueba.API)'
+2025-02-07 06:52:02.954 -05:00 [INF] Route matched with {action = "Create", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(SB.Prueba.Domain.Entities.GovernmentEntity) on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 06:52:02.997 -05:00 [INF] Executing CreatedAtActionResult, writing value of type 'SB.Prueba.Domain.Entities.GovernmentEntity'.
+2025-02-07 06:52:03.083 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.Create (SB.Prueba.API) in 127.0593ms
+2025-02-07 06:52:03.086 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.Create (SB.Prueba.API)'
+2025-02-07 06:52:03.088 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/governmententity - 201 null application/json; charset=utf-8 151.8089ms
+2025-02-07 06:52:04.697 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 06:52:04.700 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:52:04.701 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 06:52:04.703 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 06:52:04.705 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 06:52:04.706 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 1.673ms
+2025-02-07 06:52:04.707 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 06:52:04.708 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 11.3847ms
+2025-02-07 06:53:57.269 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity/8 - null null
+2025-02-07 06:53:57.273 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:53:57.274 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity/8 - 204 null null 4.9581ms
+2025-02-07 06:53:57.461 -05:00 [INF] Request starting HTTP/1.1 DELETE http://sb-backend.ngrok.app/api/governmententity/8 - null null
+2025-02-07 06:53:57.465 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:53:57.466 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.Delete (SB.Prueba.API)'
+2025-02-07 06:53:57.490 -05:00 [INF] Route matched with {action = "Delete", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 06:53:57.509 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-07 06:53:57.511 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.Delete (SB.Prueba.API) in 17.9048ms
+2025-02-07 06:53:57.512 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.Delete (SB.Prueba.API)'
+2025-02-07 06:53:57.513 -05:00 [INF] Request finished HTTP/1.1 DELETE http://sb-backend.ngrok.app/api/governmententity/8 - 204 null null 52.796ms
+2025-02-07 06:57:55.502 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 06:57:55.507 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:57:55.507 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 5.2661ms
+2025-02-07 06:57:55.693 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 06:57:55.696 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:57:55.698 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 06:57:55.699 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 06:57:55.701 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 06:57:55.702 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 1.6502ms
+2025-02-07 06:57:55.704 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 06:57:55.704 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 11.6398ms
+2025-02-07 06:58:01.927 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 06:58:01.931 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:58:01.931 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.4984ms
+2025-02-07 06:58:02.116 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 06:58:02.119 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:58:02.120 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 06:58:02.122 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 06:58:02.123 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 06:58:02.125 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 1.4858ms
+2025-02-07 06:58:02.126 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 06:58:02.127 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 11.5694ms
+2025-02-07 06:58:10.490 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - null null
+2025-02-07 06:58:10.498 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:58:10.500 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - 204 null null 10.6404ms
+2025-02-07 06:58:10.818 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 53
+2025-02-07 06:58:10.822 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:58:10.825 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 06:58:10.827 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 06:58:10.830 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-07 06:58:10.853 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 24.588ms
+2025-02-07 06:58:10.856 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 06:58:10.857 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 401 null application/problem+json; charset=utf-8 38.621ms
+2025-02-07 06:58:12.199 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 45
+2025-02-07 06:58:12.203 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:58:12.203 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 06:58:12.204 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 06:58:12.206 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-07 06:58:12.208 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 1.6422ms
+2025-02-07 06:58:12.209 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 06:58:12.210 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 401 null application/problem+json; charset=utf-8 11.2992ms
+2025-02-07 06:58:13.496 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 45
+2025-02-07 06:58:13.500 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:58:13.501 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 06:58:13.502 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 06:58:13.506 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-07 06:58:13.507 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 1.8746ms
+2025-02-07 06:58:13.509 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 06:58:13.510 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 401 null application/problem+json; charset=utf-8 13.2614ms
+2025-02-07 06:58:14.842 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 54
+2025-02-07 06:58:14.846 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:58:14.849 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 06:58:14.850 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 06:58:14.852 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-07 06:58:14.853 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 1.5334ms
+2025-02-07 06:58:14.855 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 06:58:14.856 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 401 null application/problem+json; charset=utf-8 13.8359ms
+2025-02-07 06:58:27.326 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 06:58:27.329 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:58:27.330 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.6258ms
+2025-02-07 06:58:27.522 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 06:58:27.525 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:58:27.526 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 06:58:27.527 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 06:58:27.530 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 06:58:27.531 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 1.6851ms
+2025-02-07 06:58:27.533 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 06:58:27.534 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 12.4384ms
+2025-02-07 06:59:08.704 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - null null
+2025-02-07 06:59:08.707 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:59:08.708 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - 204 null null 4.0132ms
+2025-02-07 06:59:09.237 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 63
+2025-02-07 06:59:09.240 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:59:09.241 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 06:59:09.243 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 06:59:09.245 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-07 06:59:09.247 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 2.2349ms
+2025-02-07 06:59:09.248 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 06:59:09.249 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 401 null application/problem+json; charset=utf-8 12.2825ms
+2025-02-07 06:59:10.739 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 55
+2025-02-07 06:59:10.743 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:59:10.744 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 06:59:10.747 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 06:59:10.749 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-07 06:59:10.750 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 1.7259ms
+2025-02-07 06:59:10.752 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 06:59:10.753 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 401 null application/problem+json; charset=utf-8 13.5955ms
+2025-02-07 06:59:12.281 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 54
+2025-02-07 06:59:12.285 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:59:12.286 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 06:59:12.287 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 06:59:12.289 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-07 06:59:12.293 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 5.0534ms
+2025-02-07 06:59:12.296 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 06:59:12.297 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 401 null application/problem+json; charset=utf-8 16.4704ms
+2025-02-07 06:59:13.815 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 63
+2025-02-07 06:59:13.819 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:59:13.820 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 06:59:13.821 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 06:59:13.823 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-07 06:59:13.824 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 1.6078ms
+2025-02-07 06:59:13.825 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 06:59:13.826 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 401 null application/problem+json; charset=utf-8 10.989ms
+2025-02-07 06:59:58.048 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 06:59:58.051 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:59:58.052 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.4083ms
+2025-02-07 06:59:58.236 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 06:59:58.240 -05:00 [INF] CORS policy execution successful.
+2025-02-07 06:59:58.241 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 06:59:58.242 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 06:59:58.244 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 06:59:58.246 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 2.0619ms
+2025-02-07 06:59:58.248 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 06:59:58.249 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 12.9724ms
+2025-02-07 07:00:02.264 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - null null
+2025-02-07 07:00:02.267 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:00:02.268 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - 204 null null 4.4539ms
+2025-02-07 07:00:02.452 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 39
+2025-02-07 07:00:02.457 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:00:02.458 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 07:00:02.459 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 07:00:02.461 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-07 07:00:02.463 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 2.3253ms
+2025-02-07 07:00:02.464 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 07:00:02.465 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 200 null application/json; charset=utf-8 12.6955ms
+2025-02-07 07:00:05.007 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 07:00:05.010 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:00:05.011 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.3933ms
+2025-02-07 07:00:05.197 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 07:00:05.200 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:00:05.202 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 07:00:05.203 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 07:00:05.205 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 07:00:05.206 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 2.0688ms
+2025-02-07 07:00:05.208 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 07:00:05.209 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 12.2289ms
+2025-02-07 07:00:06.029 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - null null
+2025-02-07 07:00:06.033 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:00:06.034 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - 204 null null 4.1801ms
+2025-02-07 07:00:06.429 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 65
+2025-02-07 07:00:06.432 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:00:06.433 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 07:00:06.434 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 07:00:06.436 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-07 07:00:06.437 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 1.5694ms
+2025-02-07 07:00:06.439 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 07:00:06.440 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 401 null application/problem+json; charset=utf-8 10.9248ms
+2025-02-07 07:00:07.862 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 52
+2025-02-07 07:00:07.867 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:00:07.868 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 07:00:07.869 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 07:00:07.872 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-07 07:00:07.876 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 4.945ms
+2025-02-07 07:00:07.878 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 07:00:07.880 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 401 null application/problem+json; charset=utf-8 17.7915ms
+2025-02-07 07:00:09.221 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 51
+2025-02-07 07:00:09.225 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:00:09.226 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 07:00:09.228 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 07:00:09.231 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-07 07:00:09.234 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 2.854ms
+2025-02-07 07:00:09.235 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 07:00:09.236 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 401 null application/problem+json; charset=utf-8 14.8929ms
+2025-02-07 07:00:10.677 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 65
+2025-02-07 07:00:10.681 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:00:10.683 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 07:00:10.684 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 07:00:10.686 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-07 07:00:10.688 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 1.9587ms
+2025-02-07 07:00:10.690 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 07:00:10.691 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 401 null application/problem+json; charset=utf-8 13.7476ms
+2025-02-07 07:00:18.792 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - null null
+2025-02-07 07:00:18.800 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - 200 null text/html;charset=utf-8 8.6943ms
+2025-02-07 07:00:19.195 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - null null
+2025-02-07 07:00:19.207 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.8311ms
+2025-02-07 07:02:33.571 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - null null
+2025-02-07 07:02:33.575 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:02:33.576 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - 204 null null 5.2198ms
+2025-02-07 07:02:33.762 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 39
+2025-02-07 07:02:33.766 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:02:33.767 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 07:02:33.768 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 07:02:33.771 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-07 07:02:33.774 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 2.8152ms
+2025-02-07 07:02:33.775 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 07:02:33.776 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 200 null application/json; charset=utf-8 13.9904ms
+2025-02-07 07:02:43.441 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 07:02:43.445 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:02:43.446 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.8322ms
+2025-02-07 07:02:43.632 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 07:02:43.635 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:02:43.636 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 07:02:43.637 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 07:02:43.639 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 07:02:43.640 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 1.5748ms
+2025-02-07 07:02:43.642 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 07:02:43.643 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 11.1103ms
+2025-02-07 07:03:00.424 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 07:03:00.428 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:03:00.429 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.3149ms
+2025-02-07 07:03:00.612 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 07:03:00.616 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:03:00.618 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 07:03:00.619 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 07:03:00.621 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 07:03:00.622 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 1.5589ms
+2025-02-07 07:03:00.624 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 07:03:00.625 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 12.7504ms
+2025-02-07 07:03:01.884 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 07:03:01.888 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:03:01.889 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 07:03:01.891 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 07:03:01.893 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 07:03:01.894 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 1.5312ms
+2025-02-07 07:03:01.895 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 07:03:01.897 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 12.8734ms
+2025-02-07 07:03:02.827 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 07:03:02.831 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:03:02.832 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 07:03:02.833 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 07:03:02.835 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 07:03:02.837 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 1.5697ms
+2025-02-07 07:03:02.838 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 07:03:02.839 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 11.716ms
+2025-02-07 07:03:04.157 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 07:03:04.161 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:03:04.163 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 07:03:04.165 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 07:03:04.168 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 07:03:04.169 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 2.4012ms
+2025-02-07 07:03:04.171 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 07:03:04.172 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 14.5592ms
+2025-02-07 07:03:10.438 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - null null
+2025-02-07 07:03:10.442 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:03:10.443 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - 204 null null 5.1258ms
+2025-02-07 07:03:10.628 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 39
+2025-02-07 07:03:10.631 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:03:10.632 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 07:03:10.633 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 07:03:10.635 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-07 07:03:10.637 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 1.7193ms
+2025-02-07 07:03:10.638 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 07:03:10.639 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 200 null application/json; charset=utf-8 11.2407ms
+2025-02-07 07:03:34.208 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 07:03:34.211 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:03:34.212 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.14ms
+2025-02-07 07:03:34.397 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 07:03:34.400 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:03:34.401 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 07:03:34.402 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 07:03:34.404 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 07:03:34.406 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 1.5216ms
+2025-02-07 07:03:34.407 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 07:03:34.408 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 11.3382ms
+2025-02-07 07:03:39.218 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 07:03:39.221 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:03:39.223 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 5.0476ms
+2025-02-07 07:03:39.415 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/governmententity - application/json 39
+2025-02-07 07:03:39.419 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:03:39.420 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.Create (SB.Prueba.API)'
+2025-02-07 07:03:39.422 -05:00 [INF] Route matched with {action = "Create", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(SB.Prueba.Domain.Entities.GovernmentEntity) on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 07:03:39.425 -05:00 [INF] Executing CreatedAtActionResult, writing value of type 'SB.Prueba.Domain.Entities.GovernmentEntity'.
+2025-02-07 07:03:39.427 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.Create (SB.Prueba.API) in 3.0498ms
+2025-02-07 07:03:39.429 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.Create (SB.Prueba.API)'
+2025-02-07 07:03:39.431 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/governmententity - 201 null application/json; charset=utf-8 15.9645ms
+2025-02-07 07:03:40.580 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 07:03:40.584 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:03:40.585 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 07:03:40.586 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 07:03:40.588 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 07:03:40.589 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 1.6193ms
+2025-02-07 07:03:40.591 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 07:03:40.591 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 11.7167ms
+2025-02-07 07:03:46.436 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity/8 - null null
+2025-02-07 07:03:46.439 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:03:46.440 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity/8 - 204 null null 4.0697ms
+2025-02-07 07:03:46.624 -05:00 [INF] Request starting HTTP/1.1 DELETE http://sb-backend.ngrok.app/api/governmententity/8 - null null
+2025-02-07 07:03:46.627 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:03:46.628 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.Delete (SB.Prueba.API)'
+2025-02-07 07:03:46.630 -05:00 [INF] Route matched with {action = "Delete", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 07:03:46.633 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-07 07:03:46.634 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.Delete (SB.Prueba.API) in 2.8355ms
+2025-02-07 07:03:46.636 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.Delete (SB.Prueba.API)'
+2025-02-07 07:03:46.637 -05:00 [INF] Request finished HTTP/1.1 DELETE http://sb-backend.ngrok.app/api/governmententity/8 - 204 null null 13.2422ms
+2025-02-07 07:03:51.002 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 07:03:51.006 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:03:51.007 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.98ms
+2025-02-07 07:03:51.198 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 07:03:51.201 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:03:51.203 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 07:03:51.204 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 07:03:51.206 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 07:03:51.208 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 1.8871ms
+2025-02-07 07:03:51.210 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 07:03:51.210 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 12.838ms
+2025-02-07 07:05:41.916 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger - null null
+2025-02-07 07:05:41.921 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger - 301 0 null 4.4894ms
+2025-02-07 07:05:42.109 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - null null
+2025-02-07 07:05:42.114 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - 200 null text/html;charset=utf-8 5.2667ms
+2025-02-07 07:09:00.147 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - null null
+2025-02-07 07:09:00.150 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:09:00.151 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - 204 null null 4.4584ms
+2025-02-07 07:09:00.359 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 39
+2025-02-07 07:09:00.363 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:09:00.364 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 07:09:00.365 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 07:09:00.368 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-07 07:09:00.370 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 3.0193ms
+2025-02-07 07:09:00.372 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 07:09:00.373 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 200 null application/json; charset=utf-8 14.1903ms
+2025-02-07 07:09:14.506 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 07:09:14.509 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:09:14.510 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.2026ms
+2025-02-07 07:09:14.710 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 07:09:14.714 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:09:14.716 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 07:09:14.720 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 07:09:14.723 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 07:09:14.724 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 2.0446ms
+2025-02-07 07:09:14.726 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 07:09:14.727 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 16.8924ms
+2025-02-07 07:09:40.633 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 07:09:40.636 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:09:40.637 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.3956ms
+2025-02-07 07:09:40.860 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 07:09:40.865 -05:00 [INF] CORS policy execution successful.
+2025-02-07 07:09:40.866 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 07:09:40.867 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 07:09:40.869 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 07:09:40.870 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 1.657ms
+2025-02-07 07:09:40.872 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 07:09:40.873 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 12.4825ms
+2025-02-07 07:10:10.588 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger - null null
+2025-02-07 07:10:10.592 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger - 301 0 null 4.0178ms
+2025-02-07 07:10:10.787 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - null null
+2025-02-07 07:10:10.791 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - 200 null text/html;charset=utf-8 4.2333ms
+2025-02-07 07:10:10.997 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/swagger-ui.css - null null
+2025-02-07 07:10:11.000 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/swagger-ui-bundle.js - null null
+2025-02-07 07:10:11.008 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/swagger-ui-standalone-preset.js - null null
+2025-02-07 07:10:11.014 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-02-07 07:10:11.016 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/swagger-ui.css - 200 143943 text/css 18.1465ms
+2025-02-07 07:10:11.023 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-02-07 07:10:11.024 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 15.9472ms
+2025-02-07 07:10:11.217 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-02-07 07:10:11.219 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 219.4045ms
+2025-02-07 07:10:13.058 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - null null
+2025-02-07 07:10:13.058 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/favicon-32x32.png - null null
+2025-02-07 07:10:13.065 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.4583ms
+2025-02-07 07:10:13.066 -05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-02-07 07:10:13.070 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/favicon-32x32.png - 200 628 image/png 12.3431ms
+2025-02-07 07:10:15.064 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - null null
+2025-02-07 07:10:15.068 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - 200 null text/html;charset=utf-8 3.9567ms
+2025-02-07 07:10:15.417 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - null null
+2025-02-07 07:10:15.422 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.0074ms
+2025-02-07 10:30:59.763 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - null null
+2025-02-07 10:30:59.768 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - 200 null text/html;charset=utf-8 4.7039ms
+2025-02-07 10:31:00.081 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - null null
+2025-02-07 10:31:00.087 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.1611ms
+2025-02-07 10:31:03.486 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 10:31:03.490 -05:00 [INF] CORS policy execution successful.
+2025-02-07 10:31:03.491 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.8519ms
+2025-02-07 10:31:03.744 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 10:31:03.747 -05:00 [INF] CORS policy execution successful.
+2025-02-07 10:31:03.774 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 13:09:00', Current time (UTC): '7/02/2025 15:31:03'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-02-07 10:31:03.800 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 13:09:00', Current time (UTC): '7/02/2025 15:31:03'.
+2025-02-07 10:31:03.801 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-07 10:31:03.805 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-07 10:31:03.807 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 401 0 null 63.424ms
+2025-02-07 10:31:09.002 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 10:31:09.007 -05:00 [INF] CORS policy execution successful.
+2025-02-07 10:31:09.008 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 6.029ms
+2025-02-07 10:31:09.204 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 10:31:09.208 -05:00 [INF] CORS policy execution successful.
+2025-02-07 10:31:09.209 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 13:09:00', Current time (UTC): '7/02/2025 15:31:09'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-02-07 10:31:09.212 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 13:09:00', Current time (UTC): '7/02/2025 15:31:09'.
+2025-02-07 10:31:09.213 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-07 10:31:09.214 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-07 10:31:09.215 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 401 0 null 10.9949ms
+2025-02-07 10:31:13.557 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 10:31:13.561 -05:00 [INF] CORS policy execution successful.
+2025-02-07 10:31:13.562 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 13:09:00', Current time (UTC): '7/02/2025 15:31:13'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-02-07 10:31:13.565 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 13:09:00', Current time (UTC): '7/02/2025 15:31:13'.
+2025-02-07 10:31:13.567 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-07 10:31:13.567 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-07 10:31:13.568 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 401 0 null 11.6411ms
+2025-02-07 10:31:18.304 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 10:31:18.308 -05:00 [INF] CORS policy execution successful.
+2025-02-07 10:31:18.309 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 5.2544ms
+2025-02-07 10:31:18.499 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 10:31:18.503 -05:00 [INF] CORS policy execution successful.
+2025-02-07 10:31:18.505 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 13:09:00', Current time (UTC): '7/02/2025 15:31:18'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-02-07 10:31:18.509 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 13:09:00', Current time (UTC): '7/02/2025 15:31:18'.
+2025-02-07 10:31:18.510 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-07 10:31:18.511 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-07 10:31:18.512 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 401 0 null 12.5375ms
+2025-02-07 10:31:28.916 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 10:31:28.920 -05:00 [INF] CORS policy execution successful.
+2025-02-07 10:31:28.921 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 5.7683ms
+2025-02-07 10:31:29.159 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 10:31:29.163 -05:00 [INF] CORS policy execution successful.
+2025-02-07 10:31:29.164 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 13:09:00', Current time (UTC): '7/02/2025 15:31:29'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-02-07 10:31:29.167 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 13:09:00', Current time (UTC): '7/02/2025 15:31:29'.
+2025-02-07 10:31:29.168 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-07 10:31:29.169 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-07 10:31:29.170 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 401 0 null 10.9271ms
+2025-02-07 10:31:32.169 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 10:31:32.174 -05:00 [INF] CORS policy execution successful.
+2025-02-07 10:31:32.175 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 13:09:00', Current time (UTC): '7/02/2025 15:31:32'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-02-07 10:31:32.179 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 13:09:00', Current time (UTC): '7/02/2025 15:31:32'.
+2025-02-07 10:31:32.180 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-07 10:31:32.181 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-07 10:31:32.182 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 401 0 null 12.3073ms
+2025-02-07 10:31:34.877 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 10:31:34.881 -05:00 [INF] CORS policy execution successful.
+2025-02-07 10:31:34.882 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 5.7597ms
+2025-02-07 10:31:35.100 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 10:31:35.103 -05:00 [INF] CORS policy execution successful.
+2025-02-07 10:31:35.105 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 13:09:00', Current time (UTC): '7/02/2025 15:31:35'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-02-07 10:31:35.108 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 13:09:00', Current time (UTC): '7/02/2025 15:31:35'.
+2025-02-07 10:31:35.109 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-07 10:31:35.110 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-07 10:31:35.111 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 401 0 null 11.0893ms
+2025-02-07 10:31:40.100 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - null null
+2025-02-07 10:31:40.105 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - 200 null text/html;charset=utf-8 4.2108ms
+2025-02-07 10:31:40.795 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - null null
+2025-02-07 10:31:40.800 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.8353ms
+2025-02-07 10:31:46.819 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - null null
+2025-02-07 10:31:46.823 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - 200 null text/html;charset=utf-8 4.0275ms
+2025-02-07 10:31:47.136 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - null null
+2025-02-07 10:31:47.141 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.6008ms
+2025-02-07 10:31:51.139 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - null null
+2025-02-07 10:31:51.144 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - 200 null text/html;charset=utf-8 4.9124ms
+2025-02-07 10:31:51.430 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - null null
+2025-02-07 10:31:51.435 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.6435ms
+2025-02-07 10:31:58.751 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 10:31:58.755 -05:00 [INF] CORS policy execution successful.
+2025-02-07 10:31:58.756 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 5.6625ms
+2025-02-07 10:31:58.948 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 10:31:58.951 -05:00 [INF] CORS policy execution successful.
+2025-02-07 10:31:58.952 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 13:09:00', Current time (UTC): '7/02/2025 15:31:58'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-02-07 10:31:58.955 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 13:09:00', Current time (UTC): '7/02/2025 15:31:58'.
+2025-02-07 10:31:58.956 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-07 10:31:58.957 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-07 10:31:58.958 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 401 0 null 10.5515ms
+2025-02-07 10:32:06.657 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 10:32:06.661 -05:00 [INF] CORS policy execution successful.
+2025-02-07 10:32:06.662 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.8757ms
+2025-02-07 10:32:06.866 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 10:32:06.870 -05:00 [INF] CORS policy execution successful.
+2025-02-07 10:32:06.871 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 13:09:00', Current time (UTC): '7/02/2025 15:32:06'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-02-07 10:32:06.876 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 13:09:00', Current time (UTC): '7/02/2025 15:32:06'.
+2025-02-07 10:32:06.877 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-07 10:32:06.878 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-07 10:32:06.878 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 401 0 null 12.6286ms
+2025-02-07 10:32:14.466 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - null null
+2025-02-07 10:32:14.470 -05:00 [INF] CORS policy execution successful.
+2025-02-07 10:32:14.471 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - 204 null null 4.9778ms
+2025-02-07 10:32:14.667 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 39
+2025-02-07 10:32:14.671 -05:00 [INF] CORS policy execution successful.
+2025-02-07 10:32:14.673 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 10:32:14.674 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 10:32:14.676 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-07 10:32:14.677 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 1.7286ms
+2025-02-07 10:32:14.679 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 10:32:14.680 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 200 null application/json; charset=utf-8 12.421ms
+2025-02-07 10:32:18.652 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 10:32:18.657 -05:00 [INF] CORS policy execution successful.
+2025-02-07 10:32:18.658 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 5.4512ms
+2025-02-07 10:32:18.849 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 10:32:18.853 -05:00 [INF] CORS policy execution successful.
+2025-02-07 10:32:18.854 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 10:32:18.856 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 10:32:18.866 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 10:32:18.868 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 10.9271ms
+2025-02-07 10:32:18.870 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 10:32:18.871 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 22.0167ms
+2025-02-07 12:04:36.046 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 12:04:36.050 -05:00 [INF] CORS policy execution successful.
+2025-02-07 12:04:36.051 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 5.2187ms
+2025-02-07 12:04:36.491 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 12:04:36.495 -05:00 [INF] CORS policy execution successful.
+2025-02-07 12:04:36.496 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 16:32:14', Current time (UTC): '7/02/2025 17:04:36'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-02-07 12:04:36.500 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 16:32:14', Current time (UTC): '7/02/2025 17:04:36'.
+2025-02-07 12:04:36.501 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-07 12:04:36.502 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-07 12:04:36.503 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 401 0 null 11.6614ms
+2025-02-07 12:04:41.253 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 12:04:41.257 -05:00 [INF] CORS policy execution successful.
+2025-02-07 12:04:41.258 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 16:32:14', Current time (UTC): '7/02/2025 17:04:41'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-02-07 12:04:41.261 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 16:32:14', Current time (UTC): '7/02/2025 17:04:41'.
+2025-02-07 12:04:41.262 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-07 12:04:41.263 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-07 12:04:41.264 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 401 0 null 11.2576ms
+2025-02-07 12:04:48.976 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - null null
+2025-02-07 12:04:48.980 -05:00 [INF] CORS policy execution successful.
+2025-02-07 12:04:48.981 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - 204 null null 4.8276ms
+2025-02-07 12:04:49.178 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 39
+2025-02-07 12:04:49.182 -05:00 [INF] CORS policy execution successful.
+2025-02-07 12:04:49.182 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 12:04:49.183 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 12:04:49.185 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-07 12:04:49.187 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 1.6868ms
+2025-02-07 12:04:49.188 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 12:04:49.189 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 200 null application/json; charset=utf-8 11.3497ms
+2025-02-07 12:04:52.191 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 12:04:52.194 -05:00 [INF] CORS policy execution successful.
+2025-02-07 12:04:52.195 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.7062ms
+2025-02-07 12:04:52.396 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 12:04:52.400 -05:00 [INF] CORS policy execution successful.
+2025-02-07 12:04:52.401 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 12:04:52.402 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 12:04:52.404 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 12:04:52.405 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 1.5237ms
+2025-02-07 12:04:52.407 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 12:04:52.408 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 11.505ms
+2025-02-07 12:15:47.053 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - null null
+2025-02-07 12:15:47.056 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - 200 null text/html;charset=utf-8 3.2071ms
+2025-02-07 12:15:47.416 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - null null
+2025-02-07 12:15:47.421 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.9268ms
+2025-02-07 12:35:14.010 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 12:35:14.015 -05:00 [INF] CORS policy execution successful.
+2025-02-07 12:35:14.016 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 5.9199ms
+2025-02-07 12:35:14.226 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 12:35:14.229 -05:00 [INF] CORS policy execution successful.
+2025-02-07 12:35:14.231 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 13:03:10', Current time (UTC): '7/02/2025 17:35:14'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-02-07 12:35:14.234 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 13:03:10', Current time (UTC): '7/02/2025 17:35:14'.
+2025-02-07 12:35:14.235 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-07 12:35:14.236 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-07 12:35:14.237 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 401 0 null 11.4937ms
+2025-02-07 12:35:18.214 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - null null
+2025-02-07 12:35:18.218 -05:00 [INF] CORS policy execution successful.
+2025-02-07 12:35:18.219 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - 204 null null 4.6433ms
+2025-02-07 12:35:18.401 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 39
+2025-02-07 12:35:18.405 -05:00 [INF] CORS policy execution successful.
+2025-02-07 12:35:18.406 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 12:35:18.407 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 12:35:18.410 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-07 12:35:18.411 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 2.2027ms
+2025-02-07 12:35:18.413 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 12:35:18.414 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 200 null application/json; charset=utf-8 12.5125ms
+2025-02-07 12:35:20.819 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 12:35:20.823 -05:00 [INF] CORS policy execution successful.
+2025-02-07 12:35:20.824 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.3039ms
+2025-02-07 12:35:21.008 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 12:35:21.012 -05:00 [INF] CORS policy execution successful.
+2025-02-07 12:35:21.013 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 12:35:21.014 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 12:35:21.016 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 12:35:21.018 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 1.5409ms
+2025-02-07 12:35:21.019 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 12:35:21.020 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 11.4833ms
+2025-02-07 12:35:29.128 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 12:35:29.131 -05:00 [INF] CORS policy execution successful.
+2025-02-07 12:35:29.132 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.3249ms
+2025-02-07 12:35:29.315 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 12:35:29.318 -05:00 [INF] CORS policy execution successful.
+2025-02-07 12:35:29.319 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 12:35:29.321 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 12:35:29.323 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 12:35:29.325 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 2.3838ms
+2025-02-07 12:35:29.327 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 12:35:29.328 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 12.8485ms
+2025-02-07 12:35:46.588 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - null null
+2025-02-07 12:35:46.592 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - 200 null text/html;charset=utf-8 3.7729ms
+2025-02-07 12:35:46.872 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - null null
+2025-02-07 12:35:46.878 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.4776ms
+2025-02-07 12:43:40.002 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - null null
+2025-02-07 12:43:40.007 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - 200 null text/html;charset=utf-8 5.0609ms
+2025-02-07 12:43:40.350 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - null null
+2025-02-07 12:43:40.355 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.8486ms
+2025-02-07 12:43:50.466 -05:00 [INF] Application is shutting down...
+2025-02-07 12:43:59.274 -05:00 [INF] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-07 12:43:59.436 -05:00 [INF] Now listening on: http://localhost:5088
+2025-02-07 12:43:59.440 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 12:43:59.441 -05:00 [INF] Hosting environment: Development
+2025-02-07 12:43:59.442 -05:00 [INF] Content root path: C:\Users\USER\Desktop\sb-backend\SB.Prueba.API
+2025-02-07 12:44:01.983 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - null null
+2025-02-07 12:44:02.216 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - 200 null text/html;charset=utf-8 234.8009ms
+2025-02-07 12:44:02.597 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - null null
+2025-02-07 12:44:02.675 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 78.4144ms
+2025-02-07 12:44:53.966 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 12:44:53.974 -05:00 [INF] CORS policy execution successful.
+2025-02-07 12:44:53.977 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 10.9781ms
+2025-02-07 12:44:54.162 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 12:44:54.167 -05:00 [INF] CORS policy execution successful.
+2025-02-07 12:44:54.169 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-02-07 12:44:54.260 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 12:44:54.283 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 12:44:54.292 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 12:44:54.305 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 16.639ms
+2025-02-07 12:44:54.307 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 12:44:54.308 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 145.8373ms
+2025-02-07 13:26:30.468 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - null null
+2025-02-07 13:26:30.473 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - 200 null text/html;charset=utf-8 5.1548ms
+2025-02-07 13:26:30.871 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - null null
+2025-02-07 13:26:30.879 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.7553ms
+2025-02-07 13:26:33.802 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 13:26:33.806 -05:00 [INF] CORS policy execution successful.
+2025-02-07 13:26:33.807 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.9122ms
+2025-02-07 13:26:34.000 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 13:26:34.004 -05:00 [INF] CORS policy execution successful.
+2025-02-07 13:26:34.010 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 18:04:49', Current time (UTC): '7/02/2025 18:26:34'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-02-07 13:26:34.025 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 18:04:49', Current time (UTC): '7/02/2025 18:26:34'.
+2025-02-07 13:26:34.027 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-07 13:26:34.031 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-07 13:26:34.034 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 401 0 null 33.0851ms
+2025-02-07 13:26:41.341 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - null null
+2025-02-07 13:26:41.345 -05:00 [INF] CORS policy execution successful.
+2025-02-07 13:26:41.346 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - 204 null null 5.0235ms
+2025-02-07 13:26:41.541 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 39
+2025-02-07 13:26:41.545 -05:00 [INF] CORS policy execution successful.
+2025-02-07 13:26:41.546 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 13:26:41.552 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 13:26:41.583 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-07 13:26:41.591 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 36.1849ms
+2025-02-07 13:26:41.593 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 13:26:41.594 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 200 null application/json; charset=utf-8 53.3484ms
+2025-02-07 13:26:44.727 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 13:26:44.731 -05:00 [INF] CORS policy execution successful.
+2025-02-07 13:26:44.732 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 5.6489ms
+2025-02-07 13:26:44.926 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 13:26:44.930 -05:00 [INF] CORS policy execution successful.
+2025-02-07 13:26:44.932 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 13:26:44.933 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 13:26:44.944 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 13:26:44.947 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 11.5611ms
+2025-02-07 13:26:44.948 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 13:26:44.950 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 23.0694ms
+2025-02-07 13:49:15.171 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 13:49:15.175 -05:00 [INF] CORS policy execution successful.
+2025-02-07 13:49:15.175 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.3916ms
+2025-02-07 13:49:15.356 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 13:49:15.360 -05:00 [INF] CORS policy execution successful.
+2025-02-07 13:49:15.362 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 13:49:15.364 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 13:49:15.366 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 13:49:15.368 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 2.9095ms
+2025-02-07 13:49:15.370 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 13:49:15.371 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 14.9158ms
+2025-02-07 13:49:24.717 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 13:49:24.721 -05:00 [INF] CORS policy execution successful.
+2025-02-07 13:49:24.722 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.838ms
+2025-02-07 13:49:24.897 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 13:49:24.901 -05:00 [INF] CORS policy execution successful.
+2025-02-07 13:49:24.902 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 13:49:24.903 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 13:49:24.905 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 13:49:24.907 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 2.2706ms
+2025-02-07 13:49:24.909 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 13:49:24.910 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 13.1085ms
+2025-02-07 14:26:26.181 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 14:26:26.185 -05:00 [INF] CORS policy execution successful.
+2025-02-07 14:26:26.186 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.9016ms
+2025-02-07 14:26:26.401 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 14:26:26.404 -05:00 [INF] CORS policy execution successful.
+2025-02-07 14:26:26.405 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 14:26:26.406 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 14:26:26.408 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 14:26:26.410 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 1.6644ms
+2025-02-07 14:26:26.411 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 14:26:26.412 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 11.4816ms
+2025-02-07 14:26:28.154 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 14:26:28.159 -05:00 [INF] CORS policy execution successful.
+2025-02-07 14:26:28.160 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 14:26:28.161 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 14:26:28.163 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 14:26:28.164 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 1.6181ms
+2025-02-07 14:26:28.166 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 14:26:28.167 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 12.5696ms
+2025-02-07 14:34:28.217 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 14:34:28.221 -05:00 [INF] CORS policy execution successful.
+2025-02-07 14:34:28.222 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 5.2476ms
+2025-02-07 14:34:28.415 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 14:34:28.419 -05:00 [INF] CORS policy execution successful.
+2025-02-07 14:34:28.420 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 19:26:41', Current time (UTC): '7/02/2025 19:34:28'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-02-07 14:34:28.423 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 19:26:41', Current time (UTC): '7/02/2025 19:34:28'.
+2025-02-07 14:34:28.424 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-07 14:34:28.425 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-07 14:34:28.426 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 401 0 null 10.8648ms
+2025-02-07 14:34:33.054 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 14:34:33.058 -05:00 [INF] CORS policy execution successful.
+2025-02-07 14:34:33.060 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 19:26:41', Current time (UTC): '7/02/2025 19:34:33'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-02-07 14:34:33.064 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 19:26:41', Current time (UTC): '7/02/2025 19:34:33'.
+2025-02-07 14:34:33.065 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-07 14:34:33.066 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-07 14:34:33.067 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 401 0 null 13.2512ms
+2025-02-07 14:34:36.463 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 14:34:36.467 -05:00 [INF] CORS policy execution successful.
+2025-02-07 14:34:36.468 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.908ms
+2025-02-07 14:34:36.666 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 14:34:36.671 -05:00 [INF] CORS policy execution successful.
+2025-02-07 14:34:36.672 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 19:26:41', Current time (UTC): '7/02/2025 19:34:36'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-02-07 14:34:36.675 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 19:26:41', Current time (UTC): '7/02/2025 19:34:36'.
+2025-02-07 14:34:36.676 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-07 14:34:36.677 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-07 14:34:36.678 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 401 0 null 11.7942ms
+2025-02-07 14:34:42.605 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 14:34:42.608 -05:00 [INF] CORS policy execution successful.
+2025-02-07 14:34:42.609 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.5353ms
+2025-02-07 14:34:42.799 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 14:34:42.802 -05:00 [INF] CORS policy execution successful.
+2025-02-07 14:34:42.803 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 19:26:41', Current time (UTC): '7/02/2025 19:34:42'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-02-07 14:34:42.806 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 19:26:41', Current time (UTC): '7/02/2025 19:34:42'.
+2025-02-07 14:34:42.807 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-07 14:34:42.808 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-07 14:34:42.809 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 401 0 null 10.1358ms
+2025-02-07 14:34:56.562 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 14:34:56.566 -05:00 [INF] CORS policy execution successful.
+2025-02-07 14:34:56.567 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 5.4648ms
+2025-02-07 14:34:56.755 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 14:34:56.759 -05:00 [INF] CORS policy execution successful.
+2025-02-07 14:34:56.760 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 19:26:41', Current time (UTC): '7/02/2025 19:34:56'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-02-07 14:34:56.764 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 19:26:41', Current time (UTC): '7/02/2025 19:34:56'.
+2025-02-07 14:34:56.765 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-07 14:34:56.766 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-07 14:34:56.767 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 401 0 null 11.506ms
+2025-02-07 14:35:00.150 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 14:35:00.154 -05:00 [INF] CORS policy execution successful.
+2025-02-07 14:35:00.156 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 19:26:41', Current time (UTC): '7/02/2025 19:35:00'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-02-07 14:35:00.159 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 19:26:41', Current time (UTC): '7/02/2025 19:35:00'.
+2025-02-07 14:35:00.160 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-07 14:35:00.161 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-07 14:35:00.162 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 401 0 null 11.7545ms
+2025-02-07 14:35:29.631 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 14:35:29.635 -05:00 [INF] CORS policy execution successful.
+2025-02-07 14:35:29.635 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.5436ms
+2025-02-07 14:35:29.818 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 14:35:29.822 -05:00 [INF] CORS policy execution successful.
+2025-02-07 14:35:29.823 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 18:35:18', Current time (UTC): '7/02/2025 19:35:29'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-02-07 14:35:29.825 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 18:35:18', Current time (UTC): '7/02/2025 19:35:29'.
+2025-02-07 14:35:29.826 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-07 14:35:29.828 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-07 14:35:29.829 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 401 0 null 10.8389ms
+2025-02-07 14:35:35.049 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 14:35:35.052 -05:00 [INF] CORS policy execution successful.
+2025-02-07 14:35:35.053 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.3802ms
+2025-02-07 14:35:35.236 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 14:35:35.240 -05:00 [INF] CORS policy execution successful.
+2025-02-07 14:35:35.241 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 18:35:18', Current time (UTC): '7/02/2025 19:35:35'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-02-07 14:35:35.244 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 18:35:18', Current time (UTC): '7/02/2025 19:35:35'.
+2025-02-07 14:35:35.245 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-07 14:35:35.245 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-07 14:35:35.246 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 401 0 null 10.281ms
+2025-02-07 14:35:41.889 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - null null
+2025-02-07 14:35:41.893 -05:00 [INF] CORS policy execution successful.
+2025-02-07 14:35:41.895 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - 204 null null 5.5647ms
+2025-02-07 14:35:42.077 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 39
+2025-02-07 14:35:42.081 -05:00 [INF] CORS policy execution successful.
+2025-02-07 14:35:42.082 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 14:35:42.083 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 14:35:42.085 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-07 14:35:42.086 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 2.1335ms
+2025-02-07 14:35:42.088 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 14:35:42.089 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 200 null application/json; charset=utf-8 11.9903ms
+2025-02-07 14:39:13.316 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 14:39:13.321 -05:00 [INF] CORS policy execution successful.
+2025-02-07 14:39:13.322 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 6.0895ms
+2025-02-07 14:39:13.505 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 14:39:13.509 -05:00 [INF] CORS policy execution successful.
+2025-02-07 14:39:13.510 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 14:39:13.511 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 14:39:13.513 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 14:39:13.515 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 2.1926ms
+2025-02-07 14:39:13.517 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 14:39:13.518 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 12.4976ms
+2025-02-07 14:40:40.176 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 14:40:40.180 -05:00 [INF] CORS policy execution successful.
+2025-02-07 14:40:40.181 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.2773ms
+2025-02-07 14:40:40.373 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 14:40:40.376 -05:00 [INF] CORS policy execution successful.
+2025-02-07 14:40:40.377 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 19:26:41', Current time (UTC): '7/02/2025 19:40:40'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-02-07 14:40:40.381 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 19:26:41', Current time (UTC): '7/02/2025 19:40:40'.
+2025-02-07 14:40:40.383 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-07 14:40:40.384 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-07 14:40:40.385 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 401 0 null 11.6901ms
+2025-02-07 15:39:53.251 -05:00 [INF] Application is shutting down...
+2025-02-07 15:40:00.837 -05:00 [INF] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-07 15:40:00.944 -05:00 [INF] Now listening on: http://localhost:5088
+2025-02-07 15:40:00.947 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 15:40:00.948 -05:00 [INF] Hosting environment: Development
+2025-02-07 15:40:00.949 -05:00 [INF] Content root path: C:\Users\USER\Desktop\sb-backend\SB.Prueba.API
+2025-02-07 15:40:05.891 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - null null
+2025-02-07 15:40:05.916 -05:00 [INF] CORS policy execution successful.
+2025-02-07 15:40:05.921 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - 204 null null 31.752ms
+2025-02-07 15:40:06.097 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 39
+2025-02-07 15:40:06.102 -05:00 [INF] CORS policy execution successful.
+2025-02-07 15:40:06.105 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-02-07 15:40:06.126 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 15:40:06.143 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 15:40:06.221 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-07 15:40:06.240 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 92.3574ms
+2025-02-07 15:40:06.243 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 15:40:06.244 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 200 null application/json; charset=utf-8 147.2091ms
+2025-02-07 15:40:13.788 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - null null
+2025-02-07 15:40:13.792 -05:00 [INF] CORS policy execution successful.
+2025-02-07 15:40:13.793 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - 204 null null 5.112ms
+2025-02-07 15:40:13.967 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 39
+2025-02-07 15:40:13.971 -05:00 [INF] CORS policy execution successful.
+2025-02-07 15:40:13.974 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 15:40:13.975 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 15:40:13.978 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-07 15:40:13.979 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 2.4077ms
+2025-02-07 15:40:13.981 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 15:40:13.982 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 200 null application/json; charset=utf-8 14.6374ms
+2025-02-07 15:40:22.908 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 15:40:22.912 -05:00 [INF] CORS policy execution successful.
+2025-02-07 15:40:22.913 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.9017ms
+2025-02-07 15:40:23.088 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 15:40:23.094 -05:00 [INF] CORS policy execution successful.
+2025-02-07 15:40:23.123 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 15:40:23.129 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 15:40:23.134 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 15:40:23.145 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 12.7718ms
+2025-02-07 15:40:23.147 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 15:40:23.148 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 59.9333ms
+2025-02-07 21:32:52.248 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - null null
+2025-02-07 21:32:52.289 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - 200 null text/html;charset=utf-8 40.2327ms
+2025-02-07 21:32:55.424 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - null null
+2025-02-07 21:32:55.429 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - 200 null text/html;charset=utf-8 5.0886ms
+2025-02-07 21:32:55.961 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - null null
+2025-02-07 21:32:56.031 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 69.9522ms
+2025-02-07 21:33:16.684 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 21:33:16.688 -05:00 [INF] CORS policy execution successful.
+2025-02-07 21:33:16.689 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.763ms
+2025-02-07 21:33:17.091 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 21:33:17.096 -05:00 [INF] CORS policy execution successful.
+2025-02-07 21:33:17.102 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 19:26:41', Current time (UTC): '8/02/2025 02:33:17'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-02-07 21:33:17.117 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 19:26:41', Current time (UTC): '8/02/2025 02:33:17'.
+2025-02-07 21:33:17.119 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-07 21:33:17.122 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-07 21:33:17.124 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 401 0 null 32.6922ms
+2025-02-07 21:33:20.786 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 21:33:20.791 -05:00 [INF] CORS policy execution successful.
+2025-02-07 21:33:20.793 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 19:26:41', Current time (UTC): '8/02/2025 02:33:20'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-02-07 21:33:20.797 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/02/2025 19:26:41', Current time (UTC): '8/02/2025 02:33:20'.
+2025-02-07 21:33:20.799 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-07 21:33:20.800 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-07 21:33:20.801 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 401 0 null 14.8634ms
+2025-02-07 21:33:26.203 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - null null
+2025-02-07 21:33:26.207 -05:00 [INF] CORS policy execution successful.
+2025-02-07 21:33:26.208 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - 204 null null 5.0026ms
+2025-02-07 21:33:26.606 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 39
+2025-02-07 21:33:26.610 -05:00 [INF] CORS policy execution successful.
+2025-02-07 21:33:26.611 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 21:33:26.612 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 21:33:26.615 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-07 21:33:26.616 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 2.0802ms
+2025-02-07 21:33:26.618 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 21:33:26.619 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 200 null application/json; charset=utf-8 12.65ms
+2025-02-07 21:33:29.986 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 21:33:29.990 -05:00 [INF] CORS policy execution successful.
+2025-02-07 21:33:29.991 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.5286ms
+2025-02-07 21:33:30.371 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 21:33:30.375 -05:00 [INF] CORS policy execution successful.
+2025-02-07 21:33:30.376 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 21:33:30.377 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 21:33:30.392 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 21:33:30.395 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 15.7702ms
+2025-02-07 21:33:30.396 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 21:33:30.397 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 26.1606ms
+2025-02-07 22:36:36.099 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - null null
+2025-02-07 22:36:36.106 -05:00 [INF] CORS policy execution successful.
+2025-02-07 22:36:36.107 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/auth/login - 204 null null 7.9764ms
+2025-02-07 22:36:36.292 -05:00 [INF] Request starting HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - application/json 39
+2025-02-07 22:36:36.297 -05:00 [INF] CORS policy execution successful.
+2025-02-07 22:36:36.297 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 22:36:36.299 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(SB.Prueba.API.Controllers.UserLoginModel) on controller SB.Prueba.API.Controllers.AuthController (SB.Prueba.API).
+2025-02-07 22:36:36.301 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-07 22:36:36.302 -05:00 [INF] Executed action SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API) in 1.9107ms
+2025-02-07 22:36:36.304 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.AuthController.Login (SB.Prueba.API)'
+2025-02-07 22:36:36.306 -05:00 [INF] Request finished HTTP/1.1 POST http://sb-backend.ngrok.app/api/auth/login - 200 null application/json; charset=utf-8 13.4654ms
+2025-02-07 22:36:38.875 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 22:36:38.879 -05:00 [INF] CORS policy execution successful.
+2025-02-07 22:36:38.879 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://sb-backend.ngrok.app/api/governmententity - 204 null null 4.5007ms
+2025-02-07 22:36:39.067 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - null null
+2025-02-07 22:36:39.071 -05:00 [INF] CORS policy execution successful.
+2025-02-07 22:36:39.072 -05:00 [INF] Executing endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 22:36:39.074 -05:00 [INF] Route matched with {action = "GetAll", controller = "GovernmentEntity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SB.Prueba.API.Controllers.GovernmentEntityController (SB.Prueba.API).
+2025-02-07 22:36:39.076 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SB.Prueba.Domain.Entities.GovernmentEntity, SB.Prueba.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 22:36:39.078 -05:00 [INF] Executed action SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API) in 2.1302ms
+2025-02-07 22:36:39.079 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
+2025-02-07 22:36:39.080 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 13.2345ms
+2025-02-07 22:41:37.554 -05:00 [INF] Application is shutting down...

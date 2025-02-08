@@ -144,3 +144,4 @@ C:\Users\USER\Desktop\sb-backend\SB.Prueba.API\obj\Debug\net8.0\refint\SB.Prueba
 C:\Users\USER\Desktop\sb-backend\SB.Prueba.API\obj\Debug\net8.0\SB.Prueba.API.pdb
 C:\Users\USER\Desktop\sb-backend\SB.Prueba.API\obj\Debug\net8.0\SB.Prueba.API.genruntimeconfig.cache
 C:\Users\USER\Desktop\sb-backend\SB.Prueba.API\obj\Debug\net8.0\ref\SB.Prueba.API.dll
+C:\Users\USER\Desktop\sb-backend\SB.Prueba.API\obj\Debug\net8.0\SB.Prueba.API.sourcelink.json

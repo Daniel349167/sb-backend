@@ -1,4 +1,6 @@
+// Archivo: AuthController.cs
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -18,19 +20,20 @@ namespace SB.Prueba.API.Controllers
         }
 
         [HttpPost("login")]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(TokenResponse))]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         public IActionResult Login([FromBody] UserLoginModel user)
         {
             if (user.Username == "admin" && user.Password == "admin")
             {
                 var token = GenerateJwtToken();
-                return Ok(new { token });
+                return Ok(new TokenResponse { Token = token });
             }
             return Unauthorized();
         }
 
         private string GenerateJwtToken()
         {
-            // Se modifica la clave secreta para asegurar que tenga al menos 32 caracteres (256 bits)
             var key = _configuration["Jwt:Key"] ?? "MiClaveSecretaSuperSegura1234567890";
             var issuer = _configuration["Jwt:Issuer"] ?? "SB.Prueba";
 
@@ -47,7 +50,7 @@ namespace SB.Prueba.API.Controllers
                 issuer: issuer,
                 audience: issuer,
                 claims: claims,
-                expires: DateTime.UtcNow.AddHours(1),
+                expires: DateTime.UtcNow.AddHours(24),
                 signingCredentials: credentials
             );
 
@@ -58,6 +61,12 @@ namespace SB.Prueba.API.Controllers
     public class UserLoginModel
     {
         public string Username { get; set; } = string.Empty;
+
         public string Password { get; set; } = string.Empty;
+    }
+
+    public class TokenResponse
+    {
+        public string Token { get; set; } = string.Empty;
     }
 }
