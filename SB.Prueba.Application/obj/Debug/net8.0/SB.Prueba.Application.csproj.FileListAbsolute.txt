@@ -28,3 +28,4 @@ C:\Users\USER\Desktop\sb-backend\SB.Prueba.Application\obj\Debug\net8.0\SB.Prueb
 C:\Users\USER\Desktop\sb-backend\SB.Prueba.Application\obj\Debug\net8.0\refint\SB.Prueba.Application.dll
 C:\Users\USER\Desktop\sb-backend\SB.Prueba.Application\obj\Debug\net8.0\SB.Prueba.Application.pdb
 C:\Users\USER\Desktop\sb-backend\SB.Prueba.Application\obj\Debug\net8.0\ref\SB.Prueba.Application.dll
+C:\Users\USER\Desktop\sb-backend\SB.Prueba.Application\obj\Debug\net8.0\SB.Prueba.Application.sourcelink.json

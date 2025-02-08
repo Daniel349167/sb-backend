@@ -1,4 +1,3 @@
-// Archivo: AuthController.cs
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using Microsoft.IdentityModel.Tokens;

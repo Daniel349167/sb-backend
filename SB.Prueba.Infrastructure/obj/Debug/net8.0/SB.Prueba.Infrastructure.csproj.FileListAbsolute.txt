@@ -32,3 +32,4 @@ C:\Users\USER\Desktop\sb-backend\SB.Prueba.Infrastructure\obj\Debug\net8.0\SB.Pr
 C:\Users\USER\Desktop\sb-backend\SB.Prueba.Infrastructure\obj\Debug\net8.0\refint\SB.Prueba.Infrastructure.dll
 C:\Users\USER\Desktop\sb-backend\SB.Prueba.Infrastructure\obj\Debug\net8.0\SB.Prueba.Infrastructure.pdb
 C:\Users\USER\Desktop\sb-backend\SB.Prueba.Infrastructure\obj\Debug\net8.0\ref\SB.Prueba.Infrastructure.dll
+C:\Users\USER\Desktop\sb-backend\SB.Prueba.Infrastructure\obj\Debug\net8.0\SB.Prueba.Infrastructure.sourcelink.json

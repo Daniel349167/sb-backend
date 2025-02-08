@@ -2817,3 +2817,12 @@ DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
 2025-02-07 22:36:39.079 -05:00 [INF] Executed endpoint 'SB.Prueba.API.Controllers.GovernmentEntityController.GetAll (SB.Prueba.API)'
 2025-02-07 22:36:39.080 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/api/governmententity - 200 null application/json; charset=utf-8 13.2345ms
 2025-02-07 22:41:37.554 -05:00 [INF] Application is shutting down...
+2025-02-07 22:42:52.855 -05:00 [INF] User profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-07 22:42:52.967 -05:00 [INF] Now listening on: http://localhost:5088
+2025-02-07 22:42:52.971 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 22:42:52.973 -05:00 [INF] Hosting environment: Development
+2025-02-07 22:42:52.975 -05:00 [INF] Content root path: C:\Users\USER\Desktop\sb-backend\SB.Prueba.API
+2025-02-07 22:42:53.704 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - null null
+2025-02-07 22:42:53.813 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/index.html - 200 null text/html;charset=utf-8 110.4041ms
+2025-02-07 22:42:54.111 -05:00 [INF] Request starting HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - null null
+2025-02-07 22:42:54.190 -05:00 [INF] Request finished HTTP/1.1 GET http://sb-backend.ngrok.app/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 79.6628ms
